@@ -25,7 +25,11 @@ export default function Retailers() {
                     </div>
 
                     {/* Items */}
-                    <div className="max-w-sm md:max-w-4xl mx-auto grid md:gap-20 grid-cols-1 md:grid-cols-5">
+                    <div
+                        className="max-w-sm md:max-w-4xl mx-auto grid md:gap-20 grid-cols-1 md:grid-cols-5"
+                        data-aos="zoom-y-out"
+                        data-aos-delay="200"
+                    >
                         {/* Item */}
                         <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">

@@ -19,9 +19,12 @@ export default function Stakeholders() {
                     </div>
 
                     {/* Items */}
-                    <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none ">
+                    <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
                         {/* 1st item */}
-                        <div className="relative flex flex-col items-center p-6 bg-gradient-to-r from-gray-100 to-amber-100 rounded shadow-xl ">
+                        <div
+                            className="relative flex flex-col items-center p-6 bg-gradient-to-r from-gray-100 to-amber-100 rounded shadow-xl"
+                            data-aos="zoom-y-out"
+                        >
                             <svg
                                 className="w-16 h-16 p-1 -mt-1 mb-2"
                                 fill="#000000"
@@ -37,7 +40,11 @@ export default function Stakeholders() {
                         </div>
 
                         {/* 2nd item */}
-                        <div className="relative flex flex-col items-center p-6 bg-gradient-to-r from-gray-100 to-amber-100 rounded shadow-xl">
+                        <div
+                            className="relative flex flex-col items-center p-6 bg-gradient-to-r from-gray-100 to-amber-100 rounded shadow-xl"
+                            data-aos="zoom-y-out"
+                            data-aos-delay="200"
+                        >
                             <svg
                                 className="w-16 h-16 p-1 -mt-1 mb-2"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +59,11 @@ export default function Stakeholders() {
                         </div>
 
                         {/* 3rd item */}
-                        <div className="relative flex flex-col items-center p-6 bg-gradient-to-r from-gray-100 to-amber-100 rounded shadow-xl">
+                        <div
+                            className="relative flex flex-col items-center p-6 bg-gradient-to-r from-gray-100 to-amber-100 rounded shadow-xl"
+                            data-aos="zoom-y-out"
+                            data-aos-delay="400"
+                        >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="w-16 h-16 p-1 -mt-1 mb-2"

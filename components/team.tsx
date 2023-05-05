@@ -13,7 +13,7 @@ export default function Team() {
                     <div className="w-full mx-auto text-center">
                         <h2 className="h2 mb-4">Team Members</h2>
                         <div className="flex flex-col gap-10 justify-between md:flex-row items-center">
-                            <div className="flex flex-col items-center w-1/4">
+                            <div className="flex flex-col items-center w-1/4" data-aos="zoom-y-out">
                                 <Image
                                     className="mb-5"
                                     src={Henry}
@@ -28,7 +28,11 @@ export default function Team() {
                                     Developer, PM
                                 </p>
                             </div>
-                            <div className="flex flex-col items-center w-1/4">
+                            <div
+                                className="flex flex-col items-center w-1/4"
+                                data-aos="zoom-y-out"
+                                data-aos-delay="200"
+                            >
                                 <Image
                                     className="mb-3"
                                     src={Chuteng}
@@ -43,7 +47,11 @@ export default function Team() {
                                     Developer
                                 </p>
                             </div>
-                            <div className="flex flex-col items-center w-1/4">
+                            <div
+                                className="flex flex-col items-center w-1/4"
+                                data-aos="zoom-y-out"
+                                data-aos-delay="400"
+                            >
                                 <Image
                                     className="mb-5"
                                     src={Ellie}
@@ -58,7 +66,11 @@ export default function Team() {
                                     Designer
                                 </p>
                             </div>
-                            <div className="flex flex-col items-center w-1/4">
+                            <div
+                                className="flex flex-col items-center w-1/4"
+                                data-aos="zoom-y-out"
+                                data-aos-delay="600"
+                            >
                                 <Image
                                     className="mb-5"
                                     src={Lesi}

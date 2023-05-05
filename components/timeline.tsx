@@ -30,7 +30,7 @@ const Timeline = () => {
                 <div className="py-10 md:py-20">
                     <div className="w-full mx-auto text-center">
                         <h2 className="h2 mb-4">Project Timeline</h2>
-                        <div className="flex flex-col gap-12 md:flex-row justify-between mx-4">
+                        <div className="flex flex-col gap-12 md:flex-row justify-between mx-4" data-aos="fade-right">
                             {events.map((event, index) => (
                                 <div key={index} className="flex flex-col items-center">
                                     <span className="bg-gray-300 rounded-full h-6 w-6 mb-2"></span>
